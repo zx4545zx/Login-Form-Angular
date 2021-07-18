@@ -1,0 +1,66 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.main {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+}
+
+mat-card {
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.example-container {
+  display: grid;
+}
+
+button {
+  border: none;
+  background: transparent;
+}
+
+.forgot-password {
+  text-align: right;
+  a {
+    text-decoration: none;
+  }
+}
+
+.btn-login {
+  border: 1px solid #000;
+  border-radius: 50px;
+  margin: 20px 0;
+  background-color: #000;
+}
+
+.btn-login:hover {
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #000;
+}
+
+.signup-txt {
+  text-align: center;
+}
+
+.m-img {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  mat-icon {
+    cursor: pointer;
+  }
+}
